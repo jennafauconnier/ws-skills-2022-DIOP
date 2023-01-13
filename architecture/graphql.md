@@ -6,30 +6,37 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
-- la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
-- Subscription ❌ / ✔️
+- la différence entre REST et GraphQL  ✔️
+- les besoins auxquels répond GraphQL  ✔️
+- la définition d'un schéma ✔️
+- Query ✔️
+- Mutation ❌
+- Subscription ❌
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
+Query createWilder : 
 
-### Utilisation dans un projet ❌ / ✔️
+mutation CreateWilder($data: WilderInput!) {
+  createWilder(data: $data) {
+    id
+  }
+}
+
+### Utilisation dans un projet ❌ 
 
 [lien github](...)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
