@@ -6,17 +6,23 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️
+- l'utilisation de l'`asynchrone` ✔️
+- les spécifités du mot-clef `this` ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté  ✔️
 
 ```javascript
-(e) => mc2;
+```Array plus array````
+
+function arrayPlusArray(arr1, arr2) {
+  let tab1 = arr1.reduce((a, b) => a + b)
+  let tab2 = arr2.reduce((a, b) => a + b)  
+  return tab1 + tab2; 
+}
 ```
 
 ### Utilisation dans un projet ❌ / ✔️
@@ -31,16 +37,23 @@ Description :
 
 Description :
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### J'ai utilisé ce langage en environement professionnel ✔️
 
-Description :
+Description : Nous utilisons React in Unity pour développer notre app. Ce useMemo sert a récuperer l'unicode 
+                de l'émoji et pouvoir l'afficher.
+
+  ```const emoji = useMemo(() => {
+    const toTransform = globals.emoji.Decode('💖')
+    return globals.emoji.ToRichText(toTransform)
+  }, [globals?.emoji?.Decode, globals?.emoji?.ToRichText])
+  ```
 
 ## 🌐 J'utilise des ressources
 
 ### Titre
 
-- lien
-- description
+- https://www.patterns.dev/
+- J'ai réçemment découvert ce livre qui traite le sujet des design pattern avec JS et React. 
 
 ## 🚧 Je franchis les obstacles
 

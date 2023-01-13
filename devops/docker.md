@@ -6,9 +6,9 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la création d'une image docker ❌ / ✔️
-- l'éxécution d'un container ❌ / ✔️
-- l'orchestration de containers avec docker-compose ❌ / ✔️
+- la création d'une image docker ✔️
+- l'éxécution d'un container ✔️
+- l'orchestration de containers avec docker-compose ✔️
 
 
 ## 💻 J'utilise
@@ -21,15 +21,15 @@
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ✔️
 
-Description :
+Description : Nous avons un fichier docker.compose.yml pour notre db et aussi db et pouvoir faire un bridge. 
 
 ## 🌐 J'utilise des ressources
 
