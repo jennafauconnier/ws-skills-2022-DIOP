@@ -25,11 +25,11 @@ function arrayPlusArray(arr1, arr2) {
 }
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/jennafauconnier/spotify-clone/tree/main/webapp)
 
-Description :
+Description : Projet d'un clone spotify a l'aide d'une vidéo pour utiliser l'API Spotify et pouvoir (play, pause, changer) de la musique, récuperer des playlists, naviguer entre les différentes playlists.
 
 ### J'ai utilisé ce langage en production ❌ / ✔️
 
@@ -39,14 +39,6 @@ Description :
 
 ### J'ai utilisé ce langage en environement professionnel ✔️
 
-Description : Nous utilisons React in Unity pour développer notre app. Ce useMemo sert a récuperer l'unicode 
-                de l'émoji et pouvoir l'afficher.
-
-  ```const emoji = useMemo(() => {
-    const toTransform = globals.emoji.Decode('💖')
-    return globals.emoji.ToRichText(toTransform)
-  }, [globals?.emoji?.Decode, globals?.emoji?.ToRichText])
-  ```
 
 ## 🌐 J'utilise des ressources
 
@@ -54,6 +46,9 @@ Description : Nous utilisons React in Unity pour développer notre app. Ce useMe
 
 - https://www.patterns.dev/
 - J'ai réçemment découvert ce livre qui traite le sujet des design pattern avec JS et React. 
+
+- Twitter.com
+- En suivant des devs / compte de code : Wes Bos, Brad Traversy, JavascriptDaily ... 
 
 ## 🚧 Je franchis les obstacles
 
